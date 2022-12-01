@@ -121,9 +121,8 @@ chmod 007 hello
 
 * Script that sets the mode of the file hello to this:
 
-```
--rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
-```
+(-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello)
+
 
 	_The file hello will be in the working directory_
 
