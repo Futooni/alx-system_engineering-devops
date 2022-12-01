@@ -1,4 +1,6 @@
-#Description
+
+<h1>Description</h1>
+
 
 
 <h4>0. My name is Betty</h4>
@@ -34,7 +36,7 @@ groups
 ```
 
 
-<h4>3. New owne</h4>r
+<h4>3. New owner</h4>
 
 
 * Script that changes the owner of the file hello to the user betty.
