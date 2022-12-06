@@ -1,10 +1,9 @@
 
 <h1> Description </h1>
-**0x03. Shell, init files, variables and expansions project**
+<h3> 0x03. Shell, init files, variables and expansions project</h3>
 
 
-<h3>0. <o></h3>
-
+<h3>0. o </h3>
 **Create a script that creates an alias.**
 
 * Name: ls
@@ -151,5 +150,27 @@ echo {a..z}{a..z} | tr ' ' '\n' | grep -v "oo"
 ```
 #!/bin/bash
 printf '%.2f\n' $NUM
+```
+
+
+<h3>14. Decimal to Hexadecimal</h3>
+
+**Write a script that converts a number from base 10 to base 16.**
+
+* The number in base 10 is stored in the environment variable _DECIMAL_
+
+* The script should display the number in base 16, followed by a new line
+
+```
+#!/bin/bash 
+printf '%.2f\n' $NUM
+```
+
+<h3>15. Everyone is a proponent of strong encryption</h3>
+
+**Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.**
+```
+#!/bin/bash
+tr "A-Za-z" "N-ZA-Mn-za-m"
 ```
 
