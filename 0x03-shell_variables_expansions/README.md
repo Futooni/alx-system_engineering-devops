@@ -3,6 +3,7 @@
 <h3> 0x03. Shell, init files, variables and expansions project</h3>
 
 
+
 <h3>0. o </h3>
 **Create a script that creates an alias.**
 
@@ -173,4 +174,25 @@ printf '%.2f\n' $NUM
 #!/bin/bash
 tr "A-Za-z" "N-ZA-Mn-za-m"
 ```
+
+<h3>16. The eggs of the brood need to be an odd number</h3>
+
+**Write a script that prints every other line from the input, starting with the first line.**
+```
+#!/bin/bash
+paste -d, - - | cut -d, -f1
+```
+
+
+<h3>17. I'm an instant star. Just add water and stir.</h3>
+
+**Write a shell script that adds the two numbers stored in the environment variables _WATER_ and _STIR_ and prints the result.**
+* _WATER_ is in base _water_
+* _STIR_ is in base _stir._
+* The result should be in base _bestchol_
+```
+#!/bin/bash
+printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol
+```
+
 
